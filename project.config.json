@@ -8,7 +8,7 @@
 		"es6": false,
 		"postcss": false,
 		"preloadBackgroundData": false,
-		"minified": false,
+		"minified": true,
 		"newFeature": true,
 		"coverView": true,
 		"autoAudits": false,
@@ -23,7 +23,8 @@
 			"outputPath": ""
 		},
 		"useCompilerModule": true,
-		"userConfirmedUseCompilerModuleSwitch": false
+		"userConfirmedUseCompilerModuleSwitch": false,
+		"uglifyFileName": true
 	},
 	"compileType": "miniprogram",
 	"cloudfunctionRoot": "cloud/",
